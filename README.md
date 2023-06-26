@@ -12,7 +12,9 @@
 10. cd dcrm
 11. python manage.py startapp website
 12. Open with visual studio code final dcrm project
+
 =================================================
+
 1. python manage.py migrate
 2. winpty python manage.py createsuperuser
 3. python manage.py runserver
