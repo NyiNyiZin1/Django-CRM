@@ -1,4 +1,5 @@
 ###git bash
+
 1.mkdir /c/dcrm
 2.cd dcrm/
 3.python -m venv virt
