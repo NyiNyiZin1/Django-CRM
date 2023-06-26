@@ -15,3 +15,7 @@ Open with visual studio code final dcrm project
 1.python manage.py migrate
 2.winpty python manage.py createsuperuser
 3.python manage.py runserver
+=================================================
+#git bash
+winpty python manage.py createsuperuser
+https://getbootstrap.com/docs/5.3/forms/overview/
