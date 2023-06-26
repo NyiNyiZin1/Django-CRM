@@ -11,7 +11,7 @@
 9. django-admin startproject dcrm
 10. cd dcrm
 11. python manage.py startapp website
-Open with visual studio code final dcrm project
+12. Open with visual studio code final dcrm project
 =================================================
 1. python manage.py migrate
 2. winpty python manage.py createsuperuser
