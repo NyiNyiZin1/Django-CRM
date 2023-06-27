@@ -3,6 +3,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from .forms import SignUpForm
 
+
 def home(request):
     # Check to see if logging in
     if request.method == 'POST':
@@ -17,7 +18,9 @@ def home(request):
         else:
             messages.success(request,"There Was An Error Logging In, Please Try Again...")
             return redirect("home")
-    return render(request, 'home.html', {})
+        
+    else:
+        return render(request, 'home.html', {})
 
 def login_user(request):
     pass
@@ -34,11 +37,13 @@ def register_user(request):
             form.save()
             # Authenticate and login
             username = form.cleaned_data['username']
-            username = form.cleaned_data['password']
+            password = form.cleaned_data['password1']
             user = authenticate(username=username, password=password)
             login(request,user)
             messages.success(request, "You Have Successfully Registred! Welcome!")
             return redirect('home')
-        else:
-            form = SignUpForm()
-            return render(request, 'register.html', {'form':form})
+    else:
+        form = SignUpForm()
+        return render(request, 'register.html', {'form':form})
+        # pass form UI as parameter
+    return render(request, 'register.html', {'form':form})

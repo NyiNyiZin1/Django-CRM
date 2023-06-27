@@ -1,4 +1,4 @@
-###git bash
+# git bash
 
 1. mkdir /c/dcrm
 2. cd dcrm/
@@ -14,11 +14,17 @@
 12. Open with visual studio code final dcrm project
 
 =================================================
-1.python manage.py migrate
-2.winpty python manage.py createsuperuser
-3.python manage.py runserver
+
+1. python manage.py migrate
+2. winpty python manage.py createsuperuser
+3. python manage.py runserver
+
 =================================================
-#git bash
+
+# git bash
 winpty python manage.py createsuperuser
 https://getbootstrap.com/docs/5.3/forms/overview/
 https://github.com/flatplanet/Django-CRM/blob/main/website/forms.py
+
+# Need to run after create model
+1. python manage.py makemigrations
