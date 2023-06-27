@@ -15,16 +15,12 @@
 
 =================================================
 
-1. python manage.py migrate
+1. python manage.py migrate(Need to run after create model)
 2. winpty python manage.py createsuperuser
 3. python manage.py runserver
+4. python manage.py makemigrations(Need to run after create model)
 
 =================================================
-
-# git bash
-winpty python manage.py createsuperuser
+# Reference resource
 https://getbootstrap.com/docs/5.3/forms/overview/
 https://github.com/flatplanet/Django-CRM/blob/main/website/forms.py
-
-# Need to run after create model
-1. python manage.py makemigrations
