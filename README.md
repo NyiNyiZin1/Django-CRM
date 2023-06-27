@@ -21,4 +21,4 @@
 #git bash
 winpty python manage.py createsuperuser
 https://getbootstrap.com/docs/5.3/forms/overview/
-
+https://github.com/flatplanet/Django-CRM/blob/main/website/forms.py
