@@ -22,5 +22,5 @@
 
 =================================================
 # Reference resource
-https://getbootstrap.com/docs/5.3/forms/overview/
-https://github.com/flatplanet/Django-CRM/blob/main/website/forms.py
+1. https://getbootstrap.com/docs/5.3/forms/overview/
+2. https://github.com/flatplanet/Django-CRM/blob/main/website/forms.py
