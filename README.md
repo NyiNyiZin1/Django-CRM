@@ -5,7 +5,7 @@
 3. python -m venv virt
 4. source virt/Scripts/activate
 5. pip install django
-6. pip install mysql
+6. pip install mysql or pip install psycopg2
 7. pip install mysql-connector
 8. pip install mysql-connector-python
 9. django-admin startproject dcrm
