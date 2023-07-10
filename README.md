@@ -24,3 +24,6 @@
 # Reference resource
 1. https://getbootstrap.com/docs/5.3/forms/overview/
 2. https://github.com/flatplanet/Django-CRM/blob/main/website/forms.py
+
+# Note
+1. Not restframework only UI
